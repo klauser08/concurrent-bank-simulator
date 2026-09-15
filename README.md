@@ -1,6 +1,6 @@
 # Concurrent Bank Transfer Simulator
 
-A small C++17 project demonstrating synchronized bank transfers. Twenty threads
+A C++17 bank transfer simulator demonstrating synchronized transactions. Twenty threads
 attempt 10,000 transfers between five accounts, then the program checks that the
 total balance is unchanged.
 
