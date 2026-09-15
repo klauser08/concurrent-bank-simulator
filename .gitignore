@@ -1,0 +1,25 @@
+# Build outputs
+/build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+*.pdb
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
